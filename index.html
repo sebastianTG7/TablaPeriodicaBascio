@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla Periódica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>TABLA PERIODICA DE LOS ELEMENTOS QUIMICOS</h1>
+  </header>
+ <div class="Propiedades">
+  <button id="grupos">Grupos</button>
+  <button id="periodos">Periodos</button>
+  <button id="metales">Metales</button>
+
+ </div> 
+<div class="grupoDeBotones" id="grupoDeBotones" style="visibility: hidden;">
+  <button id="grupo1Button">Grupo 1</button>
+  <button id="grupo2Button">Grupo 2</button>
+  <button id="grupo3Button">Grupo 3</button>
+  <button id="grupo4Button">Grupo 4</button>
+  <button id="grupo5Button">Grupo 5</button>
+  <button id="grupo6Button">Grupo 6</button>
+  <button id="grupo7Button">Grupo 7</button>
+  <button id="grupo8Button">Grupo 8</button>
+  <button id="grupo9Button">Grupo 9</button>
+  <button id="grupo10Button">Grupo 10</button>
+  <button id="grupo11Button">Grupo 11</button>
+  <button id="grupo12Button">Grupo 12</button>
+  <button id="grupo13Button">Grupo 13</button>
+  <button id="grupo14Button">Grupo 14</button>
+  <button id="grupo15Button">Grupo 15</button>
+  <button id="grupo16Button">Grupo 16</button>
+  <button id="grupo17Button">Grupo 17</button>
+  <button id="grupo18Button">Grupo 18</button>
+</div>
+  <div class="periodoDeBotones" id="periodoDeBotones" style="visibility: hidden;">
+  <button id="periodo1Button">Periodo 1</button>
+  <button id="periodo2Button">Periodo 2</button>
+  <button id="periodo3Button">Periodo 3</button>
+  <button id="periodo4Button">Periodo 4</button>
+  <button id="periodo5Button">Periodo 5</button>
+  <button id="periodo6Button">Periodo 6</button>
+  <button id="periodo7Button">Periodo 7</button>
+</div>
+<div class="metalesDeBotones" id="metalesDeBotones" style="visibility: hidden;">
+  <button id="metales1Button">Metales alcalinos</button>
+  <button id="metales2Button">Metales alcalinosterreos</button>
+  <button id="metales3Button">Metales de transición</button>
+  <button id="metales4Button">Metales de Postransición</button>
+  <button id="metales5Button">Metaloides</button>
+  <button id="metales6Button">Lantanidos</button>
+  <button id="metales7Button">Actinidos</button>
+
+
+</div>
+
+<!-- //Tabla periodica -->
+  <div id="contenedor-tabla">
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="cerrar">&timesb;</span>
+      <table id="tablaElemento" ></table>
+    </div>
+  </div>
+
+  <div class="filtro" id="filtro"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
